@@ -24,13 +24,13 @@
           </a>
         </li>
         <li>
-          <a href="https://www.github.com/joosaa1" target="_blank" rel="noreferrer" rel="noopener">
+          <a href="https://www.github.com/vitoralmeida10" target="_blank" rel="noreferrer" rel="noopener">
             <img src="images/github.svg" alt="GitHub">
           </a>
         </li>
         <li>
-          <a href="https://wa.me/+5511964120812" target="_blank" rel="noreferrer" rel="noopener">
-            <img src="images/whatsapp.svg" alt="WhatsApp">
+          <a href="mailto:josevitors.almeida@gmail.com" target="_blank" rel="noreferrer" rel="noopener">
+            <img src="images/email3.png" alt="WhatsApp">
           </a>
         </li>
       </ul>
@@ -64,7 +64,7 @@
               <img src="images/logo-staart.png" alt="Staart"  id="logo-staart">
               
               <div>
-                <h3>Desenvolvimento Front-End: do básico ao avançado</h3>
+                <h3>Jornada Front-End: do básico ao avançado</h3>
                 
                 <span>
                   <p class="onde">Staart</p>
@@ -147,19 +147,24 @@
     <footer>
       <div id="conteudo-footer">
         <div id="titulo-footer">
-          <h2>Entre em contato!</h2>
+          <h2 id="formulario">Entre em contato!</h2>
           <p>Me mande uma mensagem!</p>
         </div>
 
-        <form>
-          <input type="text" placeholder="Nome" required="true">
-          <input type="email" placeholder="E-mail" required="true">
-          <input type="tel" placeholder="Telefone" required="true">
+        <form action="https://api.staticforms.xyz/submit" method="post" class="card">     
+          <input type="hidden" name="accessKey" value="0041f2d3-64e3-4309-bf6d-deb10c0d1a9f"> <!-- Required // www.staticforms.xyz-->   
+          <input type="text" name="Nome" placeholder="Nome" required="true">
+          <input type="email" name="Email" placeholder="E-mail" required="true">
+          <input type="tel" name="Telefone" placeholder="Telefone" required="true">
+          <input type="hidden" name="replyTo" value="josevitors.almeida@gmail.com">
+          <!-- <input type="hidden" name="_captcha" value="false">  cancela o captcha e enviar o email direto -->
+          <input type="hidden" name="redirectTo" value="https://vitoralmeida10.github.io/#formulario">    <!--rediciona para esse destino após preencher o formulario -->
           <textarea 
             placeholder="Mensagem" 
             rows="7"
             autocapitalize="sentences"
             required="true"
+            name="Mensagem"
           ></textarea>
           <input type="submit" value="Enviar">
         </form>

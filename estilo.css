@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: var(--text);
   font-family: Raleway;
   scroll-behavior: smooth;
 }
@@ -31,7 +31,7 @@ header {
   max-width: var(--container);
   margin: 0 auto;
   margin-top: 40px;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,7 +53,7 @@ nav ul a {
 
 ul#links a {
    font-weight: 700;
-   font-size: 14px;
+   font-size: 19px;
    color: var(--title);
    text-transform: uppercase;
    transition: 0.2s;
@@ -65,6 +65,7 @@ ul#links a:hover {
 
 ul#redes img {
   display: block;
+  width: 35px;
 }
 
 #vitorImagem {
@@ -302,7 +303,7 @@ article.sobre-mim div p {
 }
 
 footer {
-  height: 100vh;
+  height: 75vh;
   background-color: var(--primary);
 }
 
@@ -360,7 +361,7 @@ div#conteudo-footer form textarea {
 }
 
 div#conteudo-footer form input::placeholder, textarea::placeholder {
-  color: var(--text);
+  color: var(--title);
 }
 
 div#conteudo-footer form input, textarea {
@@ -386,7 +387,7 @@ div#conteudo-footer form input[type="submit"] {
   color: var(--white);
   font-size: 16px;
   font-weight: 700;
-
+  cursor: pointer;
   transition: 0.2s;
 }
 
