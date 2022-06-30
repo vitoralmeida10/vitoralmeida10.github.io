@@ -3,6 +3,23 @@
   <head>
    <title>Vitor Almeida</title>
    <meta charset="utf-8">
+   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+   <link rel="manifest" href="/manifest.json">
+   <meta name="msapplication-TileColor" content="#0c0607">
+   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+   <meta name="theme-color" content="#0c0607">
    <link rel="stylesheet" href="estilo.css">
   </head> 
   <body>
@@ -153,9 +170,9 @@
 
         <form action="https://api.staticforms.xyz/submit" method="post" class="card">     
           <input type="hidden" name="accessKey" value="0041f2d3-64e3-4309-bf6d-deb10c0d1a9f"> <!-- Required // www.staticforms.xyz-->   
-          <input type="text" name="Nome" placeholder="Nome" required="true">
-          <input type="email" name="Email" placeholder="E-mail" required="true">
-          <input type="tel" name="Telefone" placeholder="Telefone" required="true">
+          <input type="text" name="name" placeholder="Nome" required="true">
+          <input type="email" name="email" placeholder="E-mail" required="true">
+          <input type="tel" name="phone" placeholder="Telefone" required="true">
           <input type="hidden" name="replyTo" value="josevitors.almeida@gmail.com">
           <!-- <input type="hidden" name="_captcha" value="false">  cancela o captcha e enviar o email direto -->
           <input type="hidden" name="redirectTo" value="https://vitoralmeida10.github.io/#formulario">    <!--rediciona para esse destino após preencher o formulario -->
@@ -164,7 +181,7 @@
             rows="7"
             autocapitalize="sentences"
             required="true"
-            name="Mensagem"
+            name="message"
           ></textarea>
           <input type="submit" value="Enviar">
         </form>
