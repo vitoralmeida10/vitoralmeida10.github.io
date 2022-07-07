@@ -48,7 +48,7 @@ header ul li:not(:first-child) {
 
 nav ul a {
   text-decoration: none;
-  display: block;
+  /*display: block;*/
 }
 
 ul#links a {
@@ -268,42 +268,60 @@ div#conteudo-sobre-mim h2 p {
 
 div#conteudo-sobre-mim article.sobre-mim:not(:first-child) {
   margin-top: 24px;
+  margin-left: 150px;
 }
 
 div#conteudo-sobre-mim article.sobre-mim:nth-child(2) {
   margin-top: 40px;
+  margin-left: 150px;
 }
 
 div#conteudo-sobre-mim article.sobre-mim {
   display: flex;
-  align-items: center;
-
   background-color: var(--white);
-  border-radius: 8px;
-  padding: 24px 26px;
-
-  box-shadow: 0 28px 36px -16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px 120px;
+  box-shadow: 0 28px 36px 16px rgba(0, 0, 0, 0.1);
 }
 
 article.sobre-mim div {
-  margin-left: 24px;
+  margin-left: 140px;
 }
 
 article.sobre-mim div h3 {
-  font-size: 24px;
+  font-size: 28px;
   color: var(--title)
 }
 
-article.sobre-mim div p {
+.skill {
+  display: flex;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--text);
+  margin-top: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.skill-dois {
+  display: flex;
+  font-family: Lato;
+  font-size: 18px;
+  color: var(--text);
   margin-top: 16px;
 }
 
+  /*article.sobre-mim div p {
+  display: flex;
+  justify-content:space-around;
+  font-family: Lato;
+  font-size: 16px;
+  color: var(--text);
+  margin-top: 16px;
+} */
+
 footer {
-  height: 75vh;
+  height: 100vh;
   background-color: var(--primary);
 }
 
