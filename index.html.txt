@@ -126,33 +126,38 @@
           <article class="sobre-mim">
             <div>
               <h3>Hard Skills</h3>
-              <p>
-                <b>Graduação em Análise e Desenvolvimento de Sistemas</b>
-              </p>
-              <p>
-                <b>Domínio em construção de sites com HTML, CSS e JavaScript</b>
-              </p>
-              <p>
-                <b>Inglês intermediário, bom entendimento da parte escrita</b>
-              </p>
-            </div>
+                <p>
+                  <li class="skill-dois"><b>* Graduação em Análise e Desenvolvimento de Sistemas</b></li>
+                  <li class="skill-dois"><b>* Domínio em construção de sites com HTML, CSS e JavaScript</b></li>
+                  <li class="skill-dois"><b>* Inglês intermediário, bom entendimento da parte escrita</b></li>
+                </p>
+             </div>
           </article>
 
           <article class="sobre-mim">
             <div>
               <h3>Habilidades</h3>
-              <p>
-                <b>Capacidade de trabalhar sob pressão e gestão do tempo</b>
-              </p>
-              <p>
-                <b>Aprendizado ativo e automotivação</b>
-              </p>
-              <p>
-                <b>Capacidade de resolver problemas e trabalhar em equipe</b>
-              </p>
-              <p>
-                <b>Adaptativo e boa comunicação</b>
-              </p>
+                <p>
+                  <li class="skill"><b>* Profissional analítico</b>
+                  <b>* Trabalho em equipe</b>
+                  </li>
+                </p>
+                <p> 
+                  <li class="skill"><b>* Focado</b>
+                  <b>* Aprendizado ativo</b>
+                  </li>
+                </p>
+                <p>
+                  <li class="skill"><b>* Adaptativo</b>
+                  <b>* Boa comunicação</b>
+                  </li>
+                </p>
+                <p>
+                  <li class="skill"><b>* Pontual</b>
+                  <b>* Constante evolução</b>
+                  </li>
+                </p>
+                <li class="skill"><b>* Facilidade de se relacionar com a equipe e transitar por outras áreas.</b></li>
             </div>
           </article>
         </div>
