@@ -1,3 +1,3 @@
 # vitoralmeida10.github.io
 
-meu site
+Meu primeiro site feito, usado como portifolio e formulário funcional.
