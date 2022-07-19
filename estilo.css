@@ -268,19 +268,19 @@ div#conteudo-sobre-mim h2 p {
 
 div#conteudo-sobre-mim article.sobre-mim:not(:first-child) {
   margin-top: 24px;
-  margin-left: 150px;
+  margin-left: 70px;
 }
 
 div#conteudo-sobre-mim article.sobre-mim:nth-child(2) {
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 70px;
 }
 
 div#conteudo-sobre-mim article.sobre-mim {
   display: flex;
   background-color: var(--white);
   border-radius: 20px;
-  padding: 20px 120px;
+  padding: 20px 100px;
   box-shadow: 0 28px 36px 16px rgba(0, 0, 0, 0.1);
 }
 
